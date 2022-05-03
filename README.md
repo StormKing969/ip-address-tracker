@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](./screenshots/desktop.png)
-![Mobile View](./screenshots/mobile.png)
+![Desktop View](./screenshots/desktop.png =500x500)
+![Mobile View](./screenshots/mobile.png =360x500)
 
 ### Links
 
