@@ -26,7 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop View
 <img src="./screenshots/desktop.png" width=50% height=50%>
+
+#### Mobile View
 <img src="./screenshots/mobile.png" width=50% height=50%>
 
 ### Links
