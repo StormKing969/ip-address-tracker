@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Axios from "axios";
 import { useState } from "react";
 import BG_IMG from "../../images/pattern-bg.png";
@@ -11,14 +11,14 @@ const Header = (props) => {
   let url = "https://ipapi.co/" + userEntry + "/json/";
 
   if(userEntry === null) {
-    url = "https://ipapi.co/json/"
+    defaultMap()
   }
 
-  useEffect(()=> {
-    Axios.get(url).then((response) => {
+  function defaultMap() {
+    Axios.get("https://ipapi.co/json/").then((response) => {
       props.UserEntry(response.data);
     });
-  }, [])
+  }
 
   function callAPI(event) {
     event.preventDefault();

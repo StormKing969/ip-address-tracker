@@ -11,6 +11,7 @@
         color: white;
         text-transform: capitalize;
         font-weight: 700;
+        cursor: default;
     }
 
     form {
@@ -27,7 +28,8 @@
 
         button {
             position: absolute;
-            top: 50%;
+            cursor: pointer;
+            top: 49%;
             transform: translate(-100%, -50%);
             border-radius: 0 1rem 1rem 0;
             border: none;
